@@ -49,15 +49,18 @@ Crea un nuevo usuario.
 
 ```json
 {
+  "id": 5
   "name": "Laura",
   "lastname": "Gómez",
+  "birthdate": "2000-05-15",
   "email": "laura@example.com",
-  "phone": "3210649870",
-  "birthdate": "2009-05-15",
-  "gender": "FEMALE",
-  "password": "12345678"
+  "password": "clave123",
+  "is_active": true,
+  "phone": "3216549870",
+  "gender": "female"
 }
 ```
+![image](https://github.com/user-attachments/assets/5cb3c02c-75a7-4eb5-adc8-8338324557d1)
 
 ---
 
