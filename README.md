@@ -38,6 +38,9 @@ Obtiene todos los usuarios registrados.
   ]
 }
 ```
+![image](https://github.com/user-attachments/assets/092b8678-56f0-493a-b378-a4083b714a0e)
+
+![image](https://github.com/user-attachments/assets/46460950-0acc-4678-a8fc-0fc4148614d9)
 
 ---
 
@@ -62,6 +65,8 @@ Crea un nuevo usuario.
 ```
 ![image](https://github.com/user-attachments/assets/5cb3c02c-75a7-4eb5-adc8-8338324557d1)
 
+![image](https://github.com/user-attachments/assets/46460950-0acc-4678-a8fc-0fc4148614d9)
+
 ---
 
 ### 📝 PUT `/user`
@@ -72,16 +77,19 @@ Actualiza la información de un usuario existente.
 
 ```json
 {
-  "id_user": 4,
-  "name": "Laura",
-  "lastname": "Gómez",
-  "email": "laura@example.com",
-  "phone": "3210649870",
-  "birthdate": "2009-05-15",
-  "gender": "FEMALE",
-  "password": "nuevaclave"
+  "id_user": 5,
+  "name": "Carlos",
+  "lastname": "Ramírez",
+  "email": "carlosr@example.com",
+  "password": "nuevo123",
+  "phone": "3001234567",
+  "is_active": true,
+  "gender": "male"
 }
 ```
+![image](https://github.com/user-attachments/assets/be856c6f-a939-4fb8-a498-5b1034318433)
+
+![image](https://github.com/user-attachments/assets/e6475534-8db9-4cb8-b5cc-07de93f12dd7)
 
 ---
 
@@ -91,14 +99,43 @@ Elimina un usuario por ID.
 
 ---
 
+![image](https://github.com/user-attachments/assets/70767015-9bed-491e-a7ba-b5204d392aa3)
+
+![image](https://github.com/user-attachments/assets/0d5d6582-f9bd-4fa0-bd26-78c49da4914a)
+
+---
 ## 📚 Materia (`Subject`)
 
 ### 📥 GET `/subject`
 
 Obtiene todas las materias registradas.
 
----
+**Ejemplo de respuesta:**
 
+```json
+{
+  "users": [
+    {
+      "id_user": 1,
+      "name": "Mel",
+      "lastname": "Suarez",
+      "email": "melanysuarez@gmail.com",
+      "phone": "3205277115",
+      "birthdate": "2004-12-27",
+      "gender": "FEMALE",
+      "is_active": true,
+      "created_at": "2025-04-02T19:31:01",
+      "updated_at": "2025-04-02T19:31:01"
+    }
+  ]
+}
+```
+--- 
+
+![image](https://github.com/user-attachments/assets/f07aa636-f3d4-4812-9c82-9015fd60e314)
+
+
+---
 ### 📤 POST `/subject`
 
 Crea una nueva materia.
@@ -106,11 +143,20 @@ Crea una nueva materia.
 **Cuerpo de solicitud:**
 
 ```json
-{
-  "name": "Matemáticas",
-  "description": "Curso básico de matemáticas"
-}
+ {
+    "id": 1,
+    "name": "Matemáticas 2",
+    "code": "MAT102",
+    "description": "Álgebra y cálculo 2",
+    "credit": 3,
+    "faculty_id": 2,
+    "create_at": "2025-11-11T00:00:00",
+    "updated_at": null
+  }
 ```
+![image](https://github.com/user-attachments/assets/c43e3307-5010-40d4-a279-7f7583c9482f)
+
+![image](https://github.com/user-attachments/assets/40e53ecc-0b5b-4339-ae2d-58b2ab6e9f09)
 
 ---
 
