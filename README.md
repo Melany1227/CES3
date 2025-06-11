@@ -1,4 +1,4 @@
-[REST API basics- CRUD, test & variable.postman_collection.json](https://github.com/user-attachments/files/20698946/REST.API.basics-.CRUD.test.variable.postman_collection.json)# 📘 API REST - Documentación
+# 📘 API REST - Documentación
 
 Esta API permite la gestión de **usuarios**, **materias** y **matrículas**. A continuación se describen todos los endpoints disponibles y ejemplos de uso.
 
@@ -303,7 +303,7 @@ Elimina una matrícula por ID.
 
 ## 🧪 Pruebas
 
-Puedes probar estos endpoints con herramientas como Postman importando este paquete:
+Puedes probar estos endpoints con herramientas como Postman importando este paquete: 
 
-📥 [Descargar colección de pruebas](src/main/resources/sql/rest-api-tests.postman_collection.json)
+📥 [Descargar colección de pruebas](src/main/resources/sql/REST API basics- CRUD, test & variable.postman_collection.json)
 
