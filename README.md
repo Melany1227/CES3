@@ -304,3 +304,6 @@ Elimina una matrícula por ID.
 ## 🧪 Pruebas
 
 Puedes probar estos endpoints con herramientas como Postman importando este paquete:
+
+📥 [Descargar colección de pruebas](src/main/resources/sql/rest-api-tests.postman_collection.json)
+
